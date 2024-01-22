@@ -1,0 +1,95 @@
+/* =============================================
+			Paradise Center Area Style					
+============================================= */
+.hb-paradisecenter-area {
+    float: left;
+    width: 100%;
+  }
+  
+  .hb-paradisecenterbox {
+    float: left;
+    width: 100%;
+  }
+  
+  .hb-paradisecenterbox:hover .hb-paradiseiconbox {
+    background-position: right center;
+  }
+  
+  .hb-paradiseiconbox {
+    width: 102px;
+    height: 102px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    line-height: 120px;
+    margin: 0 auto 30px;
+    background-size: 200% auto;
+  }
+  
+  .hb-paradiseiconbox:after {
+    top: 1px;
+    left: 1px;
+    content: '';
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px dashed #fff;
+  }
+  
+  .hb-paradiseiconbox i {
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  .hb-paradisecontent {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hb-paradisecontent .hb-description p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  /* =============================================
+              Service Area Style					
+  ============================================= */
+  .hb-servicesarea {
+    float: left;
+    width: 100%;
+  }
+  
+  .hb-services.v2 .hb-serviceimg {
+    margin: 0 0 -110px;
+  }
+  
+  .hb-services.v2 .hb-servicecontent {
+    background: #fff;
+    border-radius: 10px;
+    padding: 139px 20px 0;
+  }
+  
+  .hb-services.v2 .hb-servicecontent h3 {
+    font-weight: 500;
+    margin: 0 0 15px;
+  }
+  
+  .hb-services.v2 .hb-btn {
+    float: none;
+    margin: 0 auto -20px;
+  }
+  
+  .hb-services.v2 .hb-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .hb-services.v2 .hb-description p {
+    margin: 0 0 20px;
+  }
+  

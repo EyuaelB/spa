@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +30,69 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+:hover {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.t-hover:hover {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.t-hover {
+  transition: all 500ms ease-in-out;
+  background-position: right bottom;
+}
+
+
+.grad:hover {
+  background-position: left bottom;
+  /* transition: all 500ms ease-in-out; */
+  
+}
+
+.btn {
+  background-image: linear-gradient(to right,#aaaaff 0%,#fcbaf8 51%,#aaaaff 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+.grad {
+  background-image: linear-gradient(to right, #aaaaff 0%, #fcbaf8 50%, #aaaaff 100%);
+  background-size: 200% auto;
+  background-position: left bottom;
+  transition: all 500ms ease-in-out;
+}
+
+
+
+
+
+input[type="text"] {
+  color: #666;
+  outline: none;
+  height: 40px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 7px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #dbdbdb;
+  text-transform: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
